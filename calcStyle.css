@@ -1,0 +1,101 @@
+body {
+    display:flex;
+    flex-direction: row;
+    background-color: darkgray;
+    justify-content: center;
+    align-content: center;
+}
+
+button{
+    background-color: rgb(119, 113, 113);
+    color:greenyellow;
+    border:5px rgb(128, 128, 128);
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+.calc{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    
+}
+
+.left-calc, .mid-calc, .right-calc{
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+}
+
+.bot-digits{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+
+#dsp, #dspopr, .log{
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+    border:5px  rgb(128, 128, 128);
+    border-radius: 8px;
+    text-align: end;
+    width: 300px;
+    padding:6px;
+    margin: 2px;}
+
+#dsp, #dspopr{
+    min-height: 24px;
+}
+
+#dspopr{
+    width:72px;
+}
+
+#eql{
+    width: 180px;
+    height:80px;
+    margin:5px 5px;
+    
+}
+
+
+.log{
+    min-height:386px;
+    min-width:300px;
+    border:1px solid #ccc;    
+    overflow:auto; 
+    text-align:start; 
+}
+
+
+.digits{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.digit, .sdigit, .opr{
+    width: 80px;
+    height: 80px;
+    margin:5px 5px;
+}
+
+.clrlg{
+    height:80px;
+}
+
+.operators{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
